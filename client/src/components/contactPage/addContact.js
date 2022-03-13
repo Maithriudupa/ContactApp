@@ -49,7 +49,7 @@ useEffect(()=>{
 const handleSubmit = (e) => {
   e.preventDefault();
 
-  axios.post("https://contact-app-zoho.herokuapp.com/contact",{
+  axios.post("http://localhost:8080/contact",{
     contactName :name,
     contactNumber:phone,
     contactEmail: email,
