@@ -1,6 +1,12 @@
 # Contact App
 
  Demo link https://festive-cori-396746.netlify.app
+ 
+ To use React in production, you need npm which is included with Node.js.
+(https://nodejs.org/en/ is url for installation of Node.js)
+
+To run the application you should run both client and server simultaneosly.
+
 # Steps for running Frontend
 
 1) checkout to master branch
