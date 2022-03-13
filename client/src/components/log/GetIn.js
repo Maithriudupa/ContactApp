@@ -173,7 +173,8 @@ export default function SignIn(props) {
               sx={{ mt: 3, mb: 2 }} >
              {logInfo==="Sign In" ?  "Sign In" :"Sign Up"}
             </Button>
-            {logInfo==="Sign In" ? null:<Typography component="h9" variant="h6">By clicking Sign Up button, you are creating an account, and you agree to the Terms of use </Typography>}
+            {logInfo==="Sign In" ? null:<Typography component="div" style={{padding: "10px 10px"}}><Box sx={{ fontWeight: 'light' , fontSize: 12, textAlign:"center"}}>By clicking Sign Up button, 
+            you are creating an account, and you agree to the Terms of use </Box></Typography>}
           </Box>
         </Box>
       </Container>
