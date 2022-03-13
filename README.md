@@ -27,7 +27,7 @@
     cd server
     npm i 
   ```
-3) run API server(linux)
+3) run API server
   ```shell 
     nodemon index.js 
   ```
