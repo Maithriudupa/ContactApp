@@ -41,7 +41,7 @@ const authListener = ()=> {
 }
 
 const fetchData = async () => {
-	const res = await axios.get(`https://contact-app-zoho.herokuapp.com/contacts/${user}`);
+	const res = await axios.get(`http://localhost:8080/contacts/${user}`);
 	console.log(res.data);
   setObj(res.data)
 	};
