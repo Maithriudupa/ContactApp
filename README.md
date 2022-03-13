@@ -31,7 +31,4 @@
   ```shell 
     nodemon index.js 
   ```
-4) run API server(Windows PowerShell)
-  ```shell 
-    npm run devStart
-  ```
+
