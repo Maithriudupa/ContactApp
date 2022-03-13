@@ -1,36 +1,18 @@
 'use strict';
-const dotenv = require('dotenv');
-const assert = require('assert');
 
-dotenv.config();
-
-const {
-    PORT,
-    HOST,
-    HOST_URL,
-    API_KEY,
-    AUTH_DOMAIN,
-    MEASUREMENTID,
-    PROJECT_ID,
-    STORAGE_BUCKET,
-    MESSAGING_SENDER_ID,
-    APP_ID
-} = process.env;
-
-assert(PORT, 'PORT is required');
-assert(HOST, 'HOST is required');
 
 module.exports = {
-    port: PORT,
-    host: HOST,
-    url: HOST_URL,
+    port: 8080,
+    host: "localhost",
+    url: "http://localhost:8080",
     firebaseConfig: {
-        apiKey: API_KEY,
-        authDomain: AUTH_DOMAIN,
-        measurementId: MEASUREMENTID,
-        projectId: PROJECT_ID,
-        storageBucket: STORAGE_BUCKET,
-        messagingSenderId: MESSAGING_SENDER_ID,
-        appId: APP_ID
+        apiKey: "AIzaSyA1dT1nLQ7XuktYF8ex21W_ZnaFtSWGLrc",
+        authDomain: "zoho-contact-app-c4b09.firebaseapp.com" ,
+        projectId: "zoho-contact-app-c4b09",
+        storageBucket: "zoho-contact-app-c4b09.appspot.com",
+        messagingSenderId: "1000383554455",
+        appId: "1:1000383554455:web:3254ff211881c450cb1ad2",
+        measurementId: "G-MH9CBB855H"
     }
+}
 }
