@@ -11,7 +11,7 @@ To run the application you should run both client and server simultaneosly.
 
 1) checkout to master branch
   ```shell 
-    cd ContactApp
+    cd Zoho-Assessment-Level-1-ContactApp
     git checkout master
   ```
 2) install dependencies and node modules 
@@ -27,7 +27,7 @@ To run the application you should run both client and server simultaneosly.
   
 1) checkout to master branch
   ```shell 
-    cd ContactApp
+    cd Zoho-Assessment-Level-1-ContactApp
     git checkout master
   ```
 2) install dependencies and node modules 
